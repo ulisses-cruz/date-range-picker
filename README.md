@@ -12,6 +12,17 @@ Go to your components folder and run the following command:
 git submodule add https://github.com/ulnitek/date-range-picker.git
 ```
 
+## Usage
+```
+import DateRangePicker from './components/date_range_picker/'
+
+export default App() {
+  return (
+    <DateRangePicker />
+  )
+}
+```
+
 [sass]: https://sass-lang.com/ "css with superpowers"
 [moment.js]: https://github.com/moment/moment/ "Parse, validate, manipulate, and display dates and times in JavaScript."
 [react-icons]: https://github.com/react-icons/react-icons "svg react icons of popular icon packs"
