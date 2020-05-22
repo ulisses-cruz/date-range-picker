@@ -1,6 +1,11 @@
 @import './colors.module.scss';
 
 .dateRange {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: $black;
+  box-sizing: border-box;
+
   position: absolute;
   display: grid;
   grid-template-rows: 1fr 15px 42px;
@@ -9,6 +14,7 @@
   padding: 9px 0;
   border-radius: 5px;
   box-shadow: 4px 4px 4px $grey1, 0 0 3px $grey1; 
+  background-color: $white;
 
   .dates {
     display: grid;
