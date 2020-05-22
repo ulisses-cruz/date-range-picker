@@ -1,6 +1,8 @@
 # Date Range Picker
 React component for selecting date ranges. Can be dropped inside a project as a git submodule.
 
+![image](https://user-images.githubusercontent.com/11726278/82681293-b957e880-9c34-11ea-90c5-507a7f91e6c4.png)
+
 ## Requirements
 - __[sass]__: `yarn add node-sass` or `npm install node-sass`
 - __[moment.js]__: `yarn add moment` or `npm install moment`
