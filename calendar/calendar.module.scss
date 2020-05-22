@@ -1,0 +1,60 @@
+@import '../colors.module.scss';
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  
+  & > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49px;
+    height: 100%;
+    
+    &:hover {
+      background-color: $grey0;
+    }
+  }
+  
+  & > div {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 26px;
+  font-weight: bold;
+  color: $grey1;
+
+  & > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  & > div {
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+    &:hover {
+      background-color: $grey0;
+    }
+  }
+}

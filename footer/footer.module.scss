@@ -1,0 +1,17 @@
+@import '../colors.module.scss';
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $grey2;
+}
+
+.dash {
+  padding: 5px 10px;
+}
+
+.active {
+  color: $blue;
+  font-weight: bolder;
+}
