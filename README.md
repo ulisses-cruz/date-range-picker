@@ -9,7 +9,7 @@ React component for selecting date ranges. Can be dropped inside a project as a 
 ## Installation
 Go to your components folder and run the following command:
 ```
-git submodule add https://github.com/ulnitek/date_range_picker.git
+git submodule add https://github.com/ulnitek/date-range-picker.git
 ```
 
 [sass]: https://sass-lang.com/ "css with superpowers"
